@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Generic Course</title>
+
+    <!--STYLES-->
+    <link rel="stylesheet" href="./src/styles/index.css" />
+
+    <!--SCRIPT-->
+    <script src="./src/scripts/index.js" defer></script>
+  </head>
+  <body>
+    <!--CABEÇALHO-->
+    <header class="header__container">
+      <img
+        class="header__logo"
+        src="./src/assets/logo.svg"
+        alt="Logo Generic Course"
+      />
+      <button class="header__btn">Entrar na próxima turma</button>
+
+      <!--MODAL-->
+      <dialog id="modalControllerHeader">
+        <div class="modal__container">
+          <div class="modal__header">
+            <h1 class="modal__title">Cadastro</h1>
+            <button id="btnRegisterHeader" class="modal__close">X</button>
+          </div>
+          <p class="modal__text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s
+          </p>
+          <input
+            class="modal__input"
+            type="text"
+            name="email"
+            id="email"
+            placeholder="Digitar email"
+          />
+          <button class="button__register">
+            Entrar na lista para a próxima turma
+          </button>
+        </div>
+      </dialog>
+    </header>
+
+    <main class="main__container">
+      <!--BANNER-->
+      <section class="banner__container">
+        <h1 class="banner__title">
+          Desenvolvendo <span class="banner__title--span">suas</span> próximas
+          habilidades
+        </h1>
+        <p class="banner__text">
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s
+        </p>
+
+        <button class="banner__btn">Sobre nós</button>
+      </section>
+
+      <!--QUEM SOMOS NÓS?-->
+      <section class="about__container">
+        <h2 class="about__title">Quem somos nós?</h2>
+        <p class="about__text">
+          It is a long established fact that a reader will be distracted by the
+          readable content of a page when looking at its layout. The point of
+          using Lorem Ipsum is that it has a more-or-less normal distribution of
+          letters, as opposed to using
+        </p>
+      </section>
+
+      <!--DÚVIDAS FREQUENTES-->
+      <section class="faq__container">
+        <div class="frequent__container">
+          <h2 class="frequent__title">Dúvidas frequentes</h2>
+          <p class="frequent__text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s
+          </p>
+          <button class="frequent__btn">Entrar para próxima turma</button>
+        </div>
+
+        <!--MODAL-->
+        <dialog id="modalControllerFaq">
+          <div class="modal__container">
+            <div class="modal__header">
+              <h1 class="modal__title">Cadastro</h1>
+              <button id="btnRegisterFaq" class="modal__close">X</button>
+            </div>
+            <p class="modal__text">
+              Lorem Ipsum is simply dummy text of the printing and typesetting
+              industry. Lorem Ipsum has been the industry's standard dummy text
+              ever since the 1500s
+            </p>
+            <input
+              class="modal__input"
+              type="text"
+              name="email"
+              id="email"
+              placeholder="Digitar email"
+            />
+            <button class="button__register">
+              Entrar na lista para a próxima turma
+            </button>
+          </div>
+        </dialog>
+
+        <!--COMENTÁRIOS-->
+        <div class="doubts__container">
+          <ul class="doubts__list">
+            <li class="list__item">
+              <h3 class="list__title">Quanto custa o curso?</h3>
+              <p class="list__text">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed to using
+              </p>
+            </li>
+            <li class="list__item">
+              <h3 class="list__title">Quais matérias vou pagar?</h3>
+              <p class="list__text">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed to using
+              </p>
+            </li>
+            <li class="list__item">
+              <h3 class="list__title">Tenho direito a cancelamento?</h3>
+              <p class="list__text">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed to using
+              </p>
+            </li>
+            <li class="list__item">
+              <h3 class="list__title">O acesso do curso é vitalício?</h3>
+              <p class="list__text">
+                It is a long established fact that a reader will be distracted
+                by the readable content of a page when looking at its layout.
+                The point of using Lorem Ipsum is that it has a more-or-less
+                normal distribution of letters, as opposed to using
+              </p>
+            </li>
+          </ul>
+        </div>
+      </section>
+
+      <!--COMENTÁRIOS-->
+      <section class="comments__container">
+        <div class="opinions__container">
+          <div class="identification__container">
+            <div class="info__container">
+              <h3 class="info__title">Júlia Lima</h3>
+              <p class="info__text">Aluna na turma 2019</p>
+            </div>
+            <p class="opinions__text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 👋🏿
+            </p>
+          </div>
+
+          <div class="identification__container">
+            <div class="info__container">
+              <h3 class="info__title">Carlos Ino</h3>
+              <p class="info__text">Aluno na turma 2020</p>
+            </div>
+            <p class="opinions__text">
+              It is a 🎨 established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using
+            </p>
+          </div>
+
+          <div class="identification__container">
+            <div class="info__container">
+              <h3 class="info__title">Camila Dias</h3>
+              <p class="info__text">Aluna na turma 2019</p>
+            </div>
+            <p class="opinions__text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using ❤️ ❤️ ❤️
+            </p>
+          </div>
+
+          <div class="identification__container">
+            <div class="info__container">
+              <h3 class="info__title">João Vaz</h3>
+              <p class="info__text">Aluno na turma 2020</p>
+            </div>
+            <p class="opinions__text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 🕓 🕓 🕓️
+            </p>
+          </div>
+
+          <div class="identification__container">
+            <div class="info__container">
+              <h3 class="info__title">Gio Oliveira</h3>
+              <p class="info__text">Aluna na turma 2019</p>
+            </div>
+            <p class="opinions__text">
+              It is a long established fact that a reader will be distracted by
+              the readable content of a page when looking at its layout. The
+              point of using Lorem Ipsum is that it has a more-or-less normal
+              distribution of letters, as opposed to using 👏 👏 👏️
+            </p>
+          </div>
+        </div>
+
+        <div class="studants-comments__container">
+          <h2 class="studants-comments__title">
+            O que nossos alunos comentam?
+          </h2>
+          <p class="studants-comments__text">
+            Lorem Ipsum is simply dummy text of the printing and typesetting
+            industry. Lorem Ipsum has been the industry's standard dummy text
+            ever since the 1500s
+          </p>
+        </div>
+      </section>
+    </main>
+
+    <!--FOOTER-->
+    <footer class="footer__container">
+      <img
+        class="footer__logo"
+        src="./src/assets/logo.svg"
+        alt="Logo Generic Course"
+      />
+    </footer>
+  </body>
+</html>

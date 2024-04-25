@@ -1,0 +1,128 @@
+@import url(./globalStyles.css);
+/*MODAL*/
+.modal__container {
+  background-color: var(--gray-2);
+  padding: clamp(1.25rem, 0.363rem + 3.339vw, 2.5rem) clamp(0.875rem, 0.254rem + 2.337vw, 1.75rem);
+  border: 2px solid var(--brand-1);
+
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1.875rem;
+}
+::backdrop {
+  background-color: rgba(0, 0, 0, 0.555);
+  backdrop-filter: blur(5px);
+}
+.modal__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.modal__title {
+  color: var(--gray-7, #f8f9fa);
+  text-align: center;
+  font-size: clamp(1rem, 0.29rem + 2.671vw, 2rem);
+  font-style: normal;
+  font-weight: 600;
+  line-height: 160%;
+}
+.modal__close {
+  padding: clamp(0.3rem, 0.069rem + 0.868vw, 0.625rem) clamp(0.438rem, 0.083rem + 1.336vw, 0.938rem);
+  border: none;
+  border-radius: 0.25rem;
+  background: var(--gray-3);
+  color: var(--gray-4);
+  font-size: clamp(0.625rem, 0.182rem + 1.669vw, 1.25rem);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+.modal__text {
+  width: 28.125rem;
+  font-size: clamp(0.5rem, 0.145rem + 1.336vw, 1rem);
+  color: var(--gray-5);
+}
+.modal__input {
+  width: 28.125rem;
+  height: 1.5625rem;
+  padding: clamp(0.438rem, 0.127rem + 1.169vw, 0.875rem) clamp(0.625rem, 0.182rem + 1.669vw, 1.25rem);
+  border: none;
+  background-color: var(--gray-1);
+  color: var(--gray-4);
+  font-size: clamp(0.625rem, 0.182rem + 1.669vw, 1.25rem);
+
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.modal__input:valid{
+  background-color: var(--gray-3);
+}
+.modal__input:focus{
+  border: 1px solid var(--brand-1);
+  outline: 0;
+  background-color: var(--gray-2);
+}
+.button__register {
+  width: 30.625rem;
+  height: 3.75rem;
+  padding-inline: clamp(0.5rem, -0.564rem + 4.007vw, 2rem);
+  font-size: clamp(0.5rem, 0.145rem + 1.336vw, 1rem);
+  font-weight: 600;
+  line-height: 150%;
+  border: 1px solid var(--brand-1);
+  background: var(--brand-1);
+  color: var(--gray-7);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.625rem;
+}
+.button__register:hover{
+  border: 1px solid var(--brand-2);
+  background-color: var(--brand-2);
+}
+@media(max-width:1024px){
+  .modal__text{
+    width: 25rem;
+  }
+  .modal__input{
+    width: 25rem;
+    height: 1.25rem;
+  }
+  .button__register {
+    width: 27.5rem;
+    height: 3.125rem;
+  }
+}
+@media(max-width:768px){
+  .modal__text{
+    width: 18rem;
+  }
+  .modal__input{
+    width: 18rem;
+    height: 1rem;
+  }
+  .button__register {
+    width: 19.5rem;
+    height: 2.5rem;
+  }
+}
+@media(max-width:425px){
+  .modal__text{
+    width: 15rem;
+  }
+  .modal__input{
+    width: 15rem;
+    height: 1.25rem;
+  }
+  .button__register {
+    width: 16rem;
+    height: 2rem;
+  }
+}

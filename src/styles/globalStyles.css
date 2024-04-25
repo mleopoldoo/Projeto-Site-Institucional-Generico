@@ -1,0 +1,65 @@
+@import url(./reset.css);
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+:root {
+  --brand-1: #4c6ef5;
+  --brand-2: #364fc7;
+  --gray-1: #191c1f;
+  --gray-2: #212529;
+  --gray-3: #343a40;
+  --gray-4: #adb5bd;
+  --gray-5: #ced4da;
+  --gray-6: #edf2ff;
+  --gray-7: #f8f9fa;
+
+  --font-primary: "Inter", sans-serif;
+}
+body {
+  font-family: var(--font-primary);
+  background-color: var(--gray-2);
+}
+h2 {
+  font-size: clamp(1.5rem, 0.79rem + 2.671vw, 2.5rem);
+}
+h3 {
+  font-size: clamp(1.25rem, 0.718rem + 2.003vw, 2rem);
+}
+h1,
+h2,
+h3 {
+  color: var(--gray-6);
+  font-weight: 600;
+  line-height: 160%;
+}
+p {
+  text-align: justify;
+  font-size: clamp(0.8rem, 0.57rem + 0.866vw, 1.25rem);
+  font-weight: 400;
+  line-height: 150%;
+}
+.banner__btn,
+.frequent__btn {
+  font-size: clamp(0.8rem, 0.698rem + 0.385vw, 1rem);
+  height: 3.125rem;
+  padding-inline: clamp(1rem, 0.489rem + 1.925vw, 2rem);
+  border: 1px solid var(--brand-1);
+  background-color: var(--brand-1);
+  color: var(--gray-7);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.banner__btn:hover,
+.frequent__btn:hover {
+  border: 1px solid var(--brand-2);
+  background-color: var(--brand-2);
+}
+.banner__container,
+.faq__container {
+  color: var(--gray-4);
+}
+.about__container,
+.comments__container {
+  color: var(--gray-5);
+}
