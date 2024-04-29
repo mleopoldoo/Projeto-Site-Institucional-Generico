@@ -14,9 +14,14 @@
 
   --font-primary: "Inter", sans-serif;
 }
+
+
 body {
   font-family: var(--font-primary);
-  background-color: var(--gray-2);
+  /* background-color: var(--gray-2); */
+  /* max-width: 1256px;
+  margin: 0 auto; */
+  
 }
 h2 {
   font-size: clamp(1.5rem, 0.79rem + 2.671vw, 2.5rem);
@@ -58,8 +63,10 @@ p {
 .banner__container,
 .faq__container {
   color: var(--gray-4);
+  background-color: var(--gray-2);
 }
 .about__container,
 .comments__container {
   color: var(--gray-5);
+  background-color: var(--gray-2);
 }
