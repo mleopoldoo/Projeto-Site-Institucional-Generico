@@ -28,7 +28,7 @@
 }
 /*BANNER*/
 .main__container {
-  max-width: 1256px;
+  /* max-width: 1256px; */
   margin: 0 auto;
 }
 .banner__container {
@@ -330,7 +330,7 @@
   }
   /*BANNER*/
   .banner__container {
-    height: 30rem;
+    height: 30rem;    
   }
   .banner__title {
     width: 16rem;
