@@ -58,7 +58,7 @@
 .about__container {
   background: var(--gray-1);
   padding: clamp(1.25rem, -0.732rem + 7.461vw, 5.125rem);
-
+  justify-content: center;
   display: flex;
   align-items: center;
 }
@@ -77,7 +77,7 @@
 /*DÚVIDAS FREQUENTES*/
 .faq__container {
   padding: clamp(1.25rem, -0.732rem + 7.461vw, 5.125rem);
-
+  justify-content: center;
   display: flex;
   align-items: flex-start;
   gap: 3.5rem;
@@ -125,7 +125,7 @@
 /*COMENTÁRIOS*/
 .comments__container {
   padding: clamp(1.25rem, -0.732rem + 7.461vw, 5.125rem);
-
+  justify-content: center;
   display: flex;
   align-items: flex-start;
   gap: 3.5rem;
